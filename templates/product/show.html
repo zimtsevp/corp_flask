@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Наш продукт
+{% endblock%}
+
+{% block body %}
+<h1>Продукт: {{ product }}</h1>
+<ul>
+    <li><a href="/products/first_product">Первый продукт</a></li>
+    <li><a href="/products/second_product">Второй продукт</a></li>
+    <li><a href="/products/third_product">Третий продукт</a></li>
+    <li><a href="/products/fourth_product">Четвертый продукт</a></li>
+</ul>
+{% endblock%}
